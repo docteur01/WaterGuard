@@ -1,0 +1,220 @@
+
+// le code pour lancer
+   eas build -p android
+
+
+
+oloakemisolangerose@gmail.com
+
+Docteur01+
+
+
+
+
+
+
+
+
+
+
+
+Microsoft Windows [version 10.0.19045.5011]
+(c) Microsoft Corporation. Tous droits réservés.
+
+E:\Range\Nouveau dossier\Pick>eas login
+(node:4112) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+You are already logged in as docteurandy.
+√ Do you want to continue? ... yes
+Log in to EAS with email or username (exit and run eas login --help to see other login options)
+√ Email or username ... oloakemisolangerose@gmail.com
+√ Password ... ************
+Logged in
+
+E:\Range\Nouveau dossier\Pick>eas build:configure
+★ eas-cli@16.13.3 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+(node:2636) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+EAS project not configured.
+√ Would you like to automatically create an EAS project for @docteurandy/Pick? ... yes
+√ Created @docteurandy/Pick: https://expo.dev/accounts/docteurandy/projects/Pick on EAS
+√ Linked local project to EAS project 690cb323-6196-4d84-8a83-cdd0f50e8b4f
+💡 The following process will configure your iOS and/or Android project to be compatible with EAS Build. These changes only apply to your local project files and you can safely revert them at any time.
+√ Would you like us to run 'git init' in E:\Range\Nouveau dossier\Pick for you? ... yes
+We're going to make an initial commit for your repository.
+√ Commit message: ... Initial commit
+
+√ Which platforms would you like to configure for EAS Build? » Android
+
+√ Generated eas.json. Learn more: https://docs.expo.dev/build-reference/eas-json/
+
+🎉 Your project is ready to build.
+
+- Run eas build when you are ready to create your first build.
+- Once the build is completed, run eas submit to upload the app to app stores.
+- Learn more about other capabilities of EAS Build: https://docs.expo.dev/build/introduction
+
+E:\Range\Nouveau dossier\Pick>eas build --profile preview
+★ eas-cli@16.13.3 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+√ Select platform » Android
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+
+📝  Android application id Learn more: https://expo.fyi/android-package
+√ What would you like your Android application id to be? ... com.docteurandy.Pick
+No remote versions are configured for this project, versionCode will be initialized based on the value from the local project.
+√ Initialized versionCode with 1.
+√ Using remote Android credentials (Expo server)
+√ Generate a new Android Keystore? ... yes
+Detected that you do not have keytool installed locally.
+× Generating keystore in the cloud...
+Request failed: 500 (Internal Server Error)
+    Error: build command failed.
+
+E:\Range\Nouveau dossier\Pick>eas build --profile preview
+★ eas-cli@16.13.3 is now available.
+To upgrade, run:
+npm install -g eas-cli
+Proceeding with outdated version.
+
+(node:3744) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+√ Select platform » Android
+Resolved "preview" environment for the build. Learn more: https://docs.expo.dev/eas/environment-variables/#setting-the-environment-for-your-builds
+No environment variables with visibility "Plain text" and "Sensitive" found for the "preview" environment on EAS.
+√ Generate a new Android Keystore? ... yes
+Detected that you do not have keytool installed locally.
+√ Generating keystore in the cloud...
+√ Created keystore
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+√ Compressed project files 3s (511 KB)
+√ Uploaded to EAS 2s
+⌛️ Computing the project fingerprint is taking longer than expected...
+⏩ To skip this step, set the environment variable: EAS_SKIP_AUTO_FINGERPRINT=1
+√ Computed project fingerprint
+
+See logs: https://expo.dev/accounts/docteurandy/projects/Pick/builds/3ddd4d8a-acf8-4f7e-9722-3fe67444ca06
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+  Build queued...
+
+Start builds sooner in the priority queue.
+Sign up for EAS Production or Enterprise at https://expo.dev/accounts/docteurandy/settings/billing
+
+Waiting in Free tier queue
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■|
+
+√ Build finished
+  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+  █ ▄▄▄▄▄ █ ██▀▀▄█▄▀█ ▀█ █▄█▄▀▄ █ ▄▄▄▄▄ █
+  █ █   █ █  ▀█ ▀█ ▀▄ ▀▄▄▀▀█▀▀ ██ █   █ █
+  █ █▄▄▄█ █▀  █▄▄█▄▄▀ ▀▄ ▀▄█  ▄ █ █▄▄▄█ █
+  █▄▄▄▄▄▄▄█▄█ ▀▄█ █▄▀ █▄▀▄▀▄█ ▀▄█▄▄▄▄▄▄▄█
+  █ ▄█▀ ▄▄▀▀▀▄█▄▀▄▀▀▄▀▄▄▄▄ ▄█▀▀▀██▄▀▄  ▄█
+  █▀█▀▄  ▄█▀▀▄█▀█▄▄▀▀▄██▀  █▄▄ ▄▄▀▄█ ▀▄▀█
+  █▄██▀▀▄▄█▀▄ ▄▀▀▄▀▄ ▄█▀▄ ██▀▀▀ ▄▄▄▀▀ ▀▄█
+  █▄▀▀ ▄▀▄▄ ▀▄ ▄█▄ █ ██▀ █▄ █▄▄▀▄▀  ▀▀▀██
+  ██▄▄▄  ▄▀▄█▀█▄▀▄ █  ▄▄ ▄  ██▀▀▄▄ ▀▀ ▀▄█
+  █▀█▄▄▀▀▄▄▄▀██▀█▄▄   █▀ ▄▄▄█▀▄██ ▀▄█▀▀██
+  ██▀ ▄  ▄▀ ▀▄▄▀▀▀▀▄▄▄▄▀ ▄▀██  ▀ ▄█▀▀▄ ▄█
+  █▄█▀ ▄█▄ ▀▄█ ▄▄▀▄  ▄█▀ ▀ ▀▄  ▄██ ██ ▀██
+  █▀ ▀█▄ ▄▄ ▀ █▄▀▀▀▄▄▀▄▄▄▄▀█▀█▀▀▄▄▄▀▄  ▄█
+  ███▀▀ ▄▄█▄ ██▀█▀▄█▀▄█▀ ▀▄▄██▄█▀ ▀█▄ ▀██
+  █▄▄▄▄██▄▄▀▀▄▄▀▀▄▀▄▄▄▄▄▄ ▀▄▀█▄ ▄▄▄ ▄▄███
+  █ ▄▄▄▄▄ █▀▀  ▄██ ▀▀ █▀▀▄  ▄█▀ █▄█ ▄ █▀█
+  █ █   █ █▄█▄█▄▀▄ ▄▄▀▄▄ █▀▄█▀▀    ▄▀  ▀█
+  █ █▄▄▄█ █▀▄██▀▄▄ █  ▀▄▀█▄█▄ ▄▄█▄▄▀▀▀▀██
+  █▄▄▄▄▄▄▄█▄██▄▄▄▄▄█▄▄▄█▄█▄▄██▄██▄███▄▄▄█
+
+
+🤖 Open this link on your Android devices (or scan the QR code) to install the app:
+https://expo.dev/accounts/docteurandy/projects/Pick/builds/3ddd4d8a-acf8-4f7e-9722-3fe67444ca06
+
+√ Install and run the Android build on an emulator? ... no
+
+E:\Range\Nouveau dossier\Pick>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Nom                  | Code Couleur | Observations                            |
+| -------------------- | ------------ | --------------------------------------- |
+| `onBackground`       | #E8E8E8    | Très clair, gris très pâle              |
+| `onSurface`          | #E8E8E8    | Même teinte que `onBackground`, lisible |
+| `onPrimaryContainer` | #FFE0B2    | Crème très pâle, tirant vers le beige   |
+| `onErrorContainer`   | #FFCDD2    | Rose très clair                         |
+| `inverseSurface`     | #E8E8E8    | Idem, gris très clair                   |
+
+
+
+
+
+
+
+
+
+
+// Couleurs de l'application basées sur le design system
+export const COLORS = {
+  primary: "#007AFF",
+  success: "#34C759",
+  warning: "#FF9500",
+  error: "#FF3B30",
+  info: "#5856D6",
+  gray: "#8E8E93",
+  lightGray: "#F2F2F7",
+  background: "#f5f5f5",
+  white: "#FFFFFF",
+  black: "#000000",
+  text: "#333333",
+  textSecondary: "#666666",
+  border: "#E5E5E7",
+}
+
+
+  primary: "#FF6B00",
+  secondary: "#2196F3",
+  tertiary: "#4CAF50",
+  error: "#FF3B30",
+  background: "#F5F5F5",
+  surface: "#FFFFFF",
+  // Améliorer le contraste pour l'accessibilité
+  onBackground: "#121212",
+  onSurface: "#121212",
+  onPrimary: "#FFFFFF",
+  onSecondary: "#FFFFFF",
+  onTertiary: "#FFFFFF",
+  onError: "#FFFFFF",
+
+
+
+
+
+
+
+
+
+
+
+
+
