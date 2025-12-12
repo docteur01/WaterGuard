@@ -4,7 +4,7 @@
   "description": "WaterGuard - Water Quality Monitoring System",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docteur01/PicknDrop_Point_Owners.git"
+    "url": "https://github.com/docteur01/WaterGuard.git"
   },
   "license": "ISC",
   "author": "Pr CHANA",

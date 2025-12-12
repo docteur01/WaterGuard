@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { AlertThreshold, DEFAULT_ALERT_THRESHOLDS } from '@/types/alerts';
+import { AlertThreshold, DEFAULT_ALERT_THRESHOLDS } from '../types/alerts';
 
 export function useAlertThresholds() {
   const [thresholds, setThresholds] = useState<AlertThreshold>(DEFAULT_ALERT_THRESHOLDS);

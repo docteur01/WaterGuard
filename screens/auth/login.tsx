@@ -5,8 +5,6 @@ import Toast from 'react-native-toast-message';
 
 import { useAuth } from '../../contexts/AuthContext';
 
-const { width } = Dimensions.get('window');
-
 export default function LoginScreen() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
